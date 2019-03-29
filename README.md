@@ -5,6 +5,8 @@ Em 2000, Enron era uma das maiores empresas dos EUA. Já em 2002, ela colapsou e
 
 Esse projeto visou praticar as habilidades de machine learning durante a construção de um modelo preditivo para tentar determinar se um funcionário é ou não um funcionário de interesse (POI). Um funcionário de interesse é um funcionário que participou do escândalo da empresa.
 
+Todo o projeto está contido na pasta `final_project`, com uso apenas do arquivo "externo" `tools/feature_format.py`. Demais pastas foram utilizadas ao longo do módulo de introdução a machine learning e estão disponibilizadas também nesse repositório apenas para consultas futuras.
+
 ### Objetivos
 * Lidar com um conjunto de dados real e suas imperfeições;
 * Validar resultados de aprendizagem de máquina usando dados de teste;
@@ -40,4 +42,4 @@ Como etapa de pré-processamento deste projeto, foi combinado os dados da base "
 
 Encorajado a criar, transformar e re-escalar novos atributos a partir dos originais. Que deveriam ser armazenenadoos na estrutura `my_dataset`, e se utilizado estes atributos no modelo final, chama-los de `my_feature_list`, para que o avaliador fosse capaz de acessá-la durante os testes.
 
-Como parte do projeto submetido, foi respondido uma série de perguntas demonstrando a linha de pensamento, que de certa forma é mais importante que o projeto final em si. Essa perguntas e respostas podem ser encontradas no arquivo `Questionário`.
+Como parte do projeto submetido, foi respondido uma série de perguntas demonstrando a linha de pensamento, que de certa forma é mais importante que o projeto final em si. Essa perguntas e respostas podem ser encontradas no arquivo `Udacity.pdf`.
