@@ -1,0 +1,41 @@
+no. of Chris training emails: 7936
+no. of Sara training emails: 7884
+tempo de treinamento: 218.136 s
+tempo de predicao: 23.286 s
+acuracia: 0.9840728100113766
+
+
+
+c/ 1% dos dados de treino:
+
+no. of Chris training emails: 7936
+no. of Sara training emails: 7884
+tempo de treinamento: 0.128 s
+tempo de predicao: 1.389 s
+acuracia: 0.8845278725824801
+
+
+
+c/ 1% + kernel(rbf)
+
+no. of Chris training emails: 7936
+no. of Sara training emails: 7884
+tempo de treinamento: 0.142 s
+tempo de predicao: 1.528 s
+acuracia: 0.6160409556313993
+
+
+
+C=10.0     --> 0.6160
+C=100.0    --> 0.6160
+C=1000.0   --> 0.8213
+C=10000.0  --> 0.8924
+
+
+c/ kernel(rbf) e C=10000.0
+
+no. of Chris training emails: 7936
+no. of Sara training emails: 7884
+tempo de treinamento: 145.714 s
+tempo de predicao: 14.686 s
+acuracia: 0.9908987485779295

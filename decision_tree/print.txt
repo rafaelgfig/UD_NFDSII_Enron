@@ -1,0 +1,13 @@
+no. of Chris training emails: 7936
+no. of Sara training emails: 7884
+tempo de treinamento: 93.05 s
+tempo de predicao: 0.04 s
+acuracia: 0.9783845278725825
+
+# c/ 1% dos atributos (padrão é 10%)
+no. of Chris training emails: 7936
+no. of Sara training emails: 7884
+tempo de treinamento: 6.062 s
+tempo de predicao: 0.016 s
+acuracia: 0.9664391353811149
+numero de atributos: 379
