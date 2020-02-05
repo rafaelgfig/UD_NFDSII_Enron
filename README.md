@@ -5,7 +5,7 @@ Em 2000, Enron era uma das maiores empresas dos EUA. Já em 2002, ela colapsou e
 
 Esse projeto visou praticar as habilidades de machine learning durante a construção de um modelo preditivo para tentar determinar se um funcionário é ou não um funcionário de interesse (POI). Um funcionário de interesse é um funcionário que participou do escândalo da empresa.
 
-Todo o projeto está contido na pasta `final_project`, com uso apenas do arquivo "externo" `tools/feature_format.py`. Demais pastas foram utilizadas ao longo do módulo de introdução a machine learning e estão disponibilizadas também nesse repositório apenas para consultas futuras.
+Todo o projeto está contido na pasta [`final_project`](./final_project), com uso apenas do arquivo "externo" [`tools/feature_format.py`](./tools/feature_format.py). Demais pastas foram utilizadas ao longo do módulo de introdução a machine learning e estão disponibilizadas também nesse repositório apenas para consultas futuras.
 
 ### Objetivos
 * Lidar com um conjunto de dados real e suas imperfeições;
@@ -19,15 +19,15 @@ Todo o projeto está contido na pasta `final_project`, com uso apenas do arquivo
 ## Desenvolvimento do projeto
 
 ### Recursos necessários
-Baixado o projeto incial do [repositório da Udacity](https://github.com/udacity/ud120-projects), cujo código pode ser encontrado no diretório `final_project`. Alguns arquivos relevantes são:
+Baixado o projeto incial do [repositório da Udacity](https://github.com/udacity/ud120-projects), cujo código pode ser encontrado no diretório [`final_project`](./final_project). Alguns arquivos relevantes são:
 
-`poi_id.py`: Código inicial do identificar de pessoas de interesse (POI, do inglês Person of Interest). É neste arquivo que foi escrita a análise.
+[`poi_id.py`](./final_project/poi_id.py): Código inicial do identificar de pessoas de interesse (POI, do inglês Person of Interest). É neste arquivo que foi escrita a análise.
 
-`final_project_dataset.pkl`: O conjunto de dados para o projeto. Veja mais detalhes abaixo. 
+[`final_project_dataset.pkl`](./final_project/final_project_dataset.pkl): O conjunto de dados para o projeto. Veja mais detalhes abaixo. 
 
-`tester.py`: Ao enviar o algoritmo, conjunto de dados, e a lista de atributos que foram utilizados (criados automaticamente pelo arquivo poi_id.py) para análise da Udacity. O avaliador usou este código para testar os resultados, para garantir que a performance é similar a obtida no relatório. Não precisa usar/modificar este código, mas é fornecido de forma transparente para os alunos testem seus algoritmos. 
+[`tester.py`](./final_project/tester.py): Ao enviar o algoritmo, conjunto de dados, e a lista de atributos que foram utilizados (criados automaticamente pelo arquivo poi_id.py) para análise da Udacity. O avaliador usou este código para testar os resultados, para garantir que a performance é similar a obtida no relatório. Não precisa usar/modificar este código, mas é fornecido de forma transparente para os alunos testem seus algoritmos. 
 
-`emails_by_address`: Este diretório contém diversos arquivos de texto, cada um contendo todas as mensagens de ou para um endereço de email específico. Estes dados estão aqui para referência, ou caso deseje criar atributos mais complexos baseando-se nos detalhes dos emails. A utilização desse arquivo é opcional no projeto.
+[`emails_by_address`](./final_project/emails_by_address): Este diretório contém diversos arquivos de texto, cada um contendo todas as mensagens de ou para um endereço de email específico. Estes dados estão aqui para referência, ou caso deseje criar atributos mais complexos baseando-se nos detalhes dos emails. A utilização desse arquivo é opcional no projeto.
 
 ### Etapas
 Fornecido um código inicial pela Udacity que carrega os dados, seleciona os atributos e os colocam em um vetor `numpy`. O trabalho a partir disso foi utilizar engenharia sobre os atributos, escolher, otimizar algoritmos e testar suas respectivas capacidades preditivas. Depois será apresentado o desempenho dos algoritmos pós otimização.
@@ -40,9 +40,9 @@ Como etapa de pré-processamento deste projeto, foi combinado os dados da base "
 
 **rótulo POI**: \[‘poi’] (atributo objetivo lógico (booleano), representado como um inteiro)
 
-Encorajado a criar, transformar e re-escalar novos atributos a partir dos originais. Que deveriam ser armazenenadoos na estrutura `my_dataset`, e se utilizado estes atributos no modelo final, chama-los de `my_feature_list`, para que o avaliador fosse capaz de acessá-la durante os testes.
+Encorajado a criar, transformar e re-escalar novos atributos a partir dos originais. Que deveriam ser armazenenadoos na estrutura [`my_dataset`](./final_project/my_dataset.pkl), e se utilizado estes atributos no modelo final, chama-los de [`my_feature_list`](./final_project/my_feature_list.pkl), para que o avaliador fosse capaz de acessá-la durante os testes.
 
-Como parte do projeto submetido, foi respondido uma série de perguntas demonstrando a linha de pensamento, que de certa forma é mais importante que o projeto final em si. Essa perguntas e respostas podem ser encontradas no arquivo `Udacity.pdf`.
+Como parte do projeto submetido, foi respondido uma série de perguntas demonstrando a linha de pensamento, que de certa forma é mais importante que o projeto final em si. Essa perguntas e respostas podem ser encontradas no arquivo [`Udacity.pdf`.](./final_project/Udacity.pdf)
 
 ### Questionário / Relatório
 ##### 1. Summarize for us the goal of this project and how machine learning is useful in trying to accomplish it. As part of your answer, give some background on the dataset and how it can be used to answer the project question. Were there any outliers in the data when you got it, and how did you handle those?
